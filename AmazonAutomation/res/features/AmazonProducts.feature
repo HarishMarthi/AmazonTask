@@ -24,7 +24,7 @@ Feature: Amazon Products Search and Verify
       | amzonTitle | productName |
       | Amazon.com | phone       |
 
-  Scenario Outline: Validate pin code change flow im amaz
+  Scenario Outline: Validate pin code change flow in amazon application
     Given User land on Home page of amazon application
     When verify page title contains <amzonTitle> on the amazon application
     Then user click on change address button in the pop up
