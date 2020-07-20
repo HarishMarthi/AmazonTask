@@ -1,0 +1,5 @@
+com\amazon\app\pages\AmazonHomepage.class
+com\amazon\app\steps\AmazonSteps.class
+com\amazon\app\pages\AmazonProductDetailsPage.class
+com\amazon\app\steps\Hooks.class
+com\amazon\app\runner\TestRunner.class
