@@ -16,7 +16,7 @@ Writing the Automation Script for Amazon Application
 
 ===== 1st Method =====  
 
-Run through Junit file : In the project root node there is a "TestRunner,java" file. Right click on it and choose 
+Run through Junit file : In the project root node there is a "TestRunner.java" file. Right click on it and choose 
 	run as then click on "JUnit Test" Option.
 	
 
@@ -34,23 +34,23 @@ After completion of the script execution reports will be saved in "AmazonAutomat
 
 ===== How Framework Will Work ========
 
-1. Once run the project through TestRunner.java or pom.xml file then control will move to feature file to read steps
+1. Once you run the project through TestRunner.java or pom.xml file then control will move to feature file to read the steps
 
 2. After that control will move to step definitions package to read the glue code.
 
-3. From step definitions control move to Page files to do actual test execution.
+3. From step definitions the control moves to Page files to do the actual test execution.
 
-2. In the test base class we are maintaining the driver details and launching the browser.
+4. In the test base class, we are maintaining the driver details and launching the browser.
 
-3. Utils containing the utility method for the the project.
+5. Utils contains the utility method for the the project.
 
-5. Configuration file having all the config details for the drivers, driver keys and app url etc..
+6. Configuration file consists of all the config details for the drivers, driver keys and app url etc..
 
-6. Finally reports will be stored under "AmazonAutomation/target/cucumber-jvm-report/cucumber-html-report" folder.
+7. Finally reports will be stored under "AmazonAutomation/target/cucumber-jvm-report/cucumber-html-report" folder.
 
-7. Here we are using the cucumber JVM reports
+8. Here we are using the cucumber JVM reports
 
-8. After every test case or test scenario is completed browser will close and again it will open for next test case or test scenario
+9. After every test case or test scenario is completed browser will close and open again for next test case or test scenario
 
 
 
